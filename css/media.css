@@ -1,0 +1,267 @@
+
+@media screen and (max-width:1100px) {
+  .banner__images-main{
+    top: 280px;
+    left: -100px;
+    width: 200px;
+    height: 200px;
+    }
+}
+@media screen and (max-width:1000px) {
+  .banner__images-main{
+    top: 180px;
+    }
+    .banner__images-bg{
+      width: 300px;
+      height: 400px;
+    }
+}
+@media screen and (max-width:900px) {
+  .banner__images-main{
+    display: none;
+  }
+  .banner__images-bg{
+    width: 250px;
+    height: 350px;
+  }
+}
+@media screen and (max-width:850px) {
+  .banner__offer h1{
+    color: var(--basic-dark);
+    font-size: 36px;
+    margin: 20px 0 10px;
+   }
+   .title h2 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width:725px) {
+  /* шрифты */
+  .banner__offer h1{
+    font-size: 32px;
+   }
+   .title h2 {
+    font-size: 26px;
+    margin-bottom: 0;
+  }
+  .reserve__title h2{
+    margin-bottom: 30px;
+  }
+  .banner__offer p{
+   font-size: 18px;
+   }
+   .banner__btn{
+    width: 215px;
+  }
+  .banner__btn a{
+    font-size: 14px;
+    padding: 10px 30px;
+  }
+  .about-us{
+    margin: 70px 0px;
+  }
+}
+@media screen and (max-width:680px) {
+  .banner-wrapper{
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .banner__offer{
+    order: 1;
+  }
+  .banner__images-main{
+    display: block;
+    top: 130px;
+    left: -50px;
+  }
+  .banner__images-bg{
+    margin-left: 100px;
+    width: 250px;
+    height: 350px;
+  }
+  .banner__offer h1{
+    text-align: center;
+   }
+   .banner__offer p{
+    text-align: center;
+   }
+   .banner__btn{
+    margin: 0 auto;
+  }
+  .slider{
+    height: 300px;
+  }
+  .slide h3{
+    font-size: 16px;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+  }
+  .menu-img{
+    width: 250px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .menu-img-meat{
+    background-size: 150%;
+    margin-left: -10px;
+  }
+  .menu-img-cryfish{
+    background-size: 125%;
+    background-position: center center;
+    margin-left: -40px;
+  }
+  .menu__table-row{
+    grid-template-columns: 150px 1fr 50px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width:530px) {
+  .burger-menu{
+    display: flex;
+    width: 30px;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    cursor: pointer;
+    
+  }
+  .burger-menu div{
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    z-index: 7;
+    transition: all ease .5s;
+  }
+  .burger-menu--active div:first-child{
+    rotate: 45deg;
+  }
+  .burger-menu--active div:nth-child(2){
+    display: none;
+  }
+  .burger-menu--active div:last-child{
+    rotate: -45deg;
+    transform: translate(5px,-5px);
+  }
+  .header__menu{
+    transform: translateY(-100%);
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-color: var(--basic-dark);
+    color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 6;
+    padding-left: 0;
+    padding-top: 60px;
+  }
+  .header__menu--active{
+    transition: all ease 1s;
+    transform: translateY(0);
+  }
+  .header__menu--active li{
+    display: block;
+    text-align: center;
+    margin-left: 0;
+    padding: 15px;
+  }
+  .reserve__form p{
+    margin: 5px;
+  }
+  .footer-wrapper{
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+@media screen and (max-width:470px) {
+  .banner__images-main{
+    display: block;
+    top: 40px;
+    left: -20px;
+    width: 150px;
+    height: 150px;
+  }
+  .banner__images-bg{
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+  }
+  .title h2 {
+    padding-bottom: 10px;
+  }
+  .reserve__title h2{
+  padding: 20px;
+  }
+  .about-us{
+    margin-bottom: 30px;
+  }
+  .contact-wrapper{
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width:416px) {
+  .banner__offer h1{
+    font-size: 26px;
+   }
+   .title h2 {
+    font-size: 24px;
+  }
+  .banner__offer p{
+   font-size: 16px;
+   margin-bottom: 15px;
+   }
+   .banner__btn{
+    width: 193px;
+  }
+  .banner__btn a{
+    font-size: 12px;
+    padding: 10px 30px;
+  }
+  .slider{
+  display: block;
+  height: 100%;
+  padding: 20px;
+  }
+  .slide{
+    height: 250px;
+    border-radius: 0px;
+    margin: 0px;
+    cursor:none;
+    margin-bottom: 10px;
+  }
+  .slide h3{
+    opacity: 1;
+  }
+  .description{
+    margin: 40px 0;
+  }
+  .reserve{
+    margin-bottom: 25px;
+  }
+  .menu-img{
+    width: 120px;
+    height: 100px;
+  }
+  .menu-img-meat{
+    background-size: 180%;
+    margin-left: -10px;
+  }
+  .menu-img-cryfish{
+    background-size: 180%;
+    background-position: center center;
+    margin-left: -10px;
+  }
+  .menu__table-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .menu__table-header h3{
+    font-size:24px;
+  }
+}

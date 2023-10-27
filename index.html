@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/media.css">
   <title>California</title>
 </head>
 
@@ -15,13 +16,18 @@
         <div class="header__logo"><a href="./index.html">California</a></div>
         <div class="header__navigation">
           <nav>
-            <ul>
-              <li><a href="./index.html">Home</a></li>
+            <ul class="header__menu">
+              <li class="active"><a href="./index.html">Home</a></li>
               <li><a href="./aboutUs.html">About Us</a></li>
               <li><a href="./menu.html">Menu</a></li>
               <li><a href="./contact.html">Contact</a></li>
             </ul>
           </nav>
+          <div class="burger-menu">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
       </div>
     </div>
@@ -42,7 +48,7 @@
         </div>
       </div>
     </section>
-    <section class="slider">
+    <section class="slider slider-mobile">
       <div class="slide" style="background-image: url(./img/prof-cook.webp);">
         <h3>Professional chefs</h3>
       </div>
@@ -179,6 +185,14 @@
       </div>
     </div>
   </footer>
+  <!-- START Cookie-Alert -->
+  <div id="cookie_note">
+    <p>Мы используем файлы cookies для улучшения работы сайта. Оставаясь на нашем сайте, вы соглашаетесь с условиями
+      использования файлов cookies. Чтобы ознакомиться с нашими Положениями о конфиденциальности и об использовании
+      файлов cookie, <a href="#" target="_blank">нажмите здесь</a>.</p>
+    <button class="button cookie_accept btn btn-primary btn-sm">Я согласен</button>
+  </div>
+  <!-- END Cookie-Alert -->
   <script src="./js/main.js"></script>
 </body>
 

@@ -35,6 +35,9 @@ a{
   margin-bottom: 30px;
   margin-top: 0;
 }
+.active{
+  color: #eb8d78;
+}
 /* Start header */
 .header{
   background: var(--basic-dark);
@@ -47,7 +50,7 @@ a{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0px;
+  padding: 20px 0px;
   color: #fff;
 }
 .header__logo{
@@ -61,11 +64,17 @@ a{
 .header__navigation li{
  display: inline-block;
  margin-left: 20px;
- /* text-transform: uppercase; */
+}
+.header__navigation ul{
+  margin: 0;
 }
 .header__navigation li:hover{
  color: #eb8d78;
 }
+.burger-menu{
+  display: none;
+}
+
 /* Finish header */
 
 /* Start banner */
@@ -78,6 +87,7 @@ a{
   justify-content: space-between;
   align-items: center;
   padding: 40px 0;
+  gap: 10px;
 }
 
 .banner__offer h1{
@@ -94,8 +104,6 @@ margin-bottom: 30px;
   text-transform: uppercase;
   background-color: var(--focus);
   color: var(--light-grey);
-  font-size: 14px;
-  font-weight: 500;
   border: none;
   cursor: pointer;
   width: 300px;
@@ -149,7 +157,7 @@ z-index: 2;
 }
 
 .slide{
-  height: 80vh;
+  height: 80%;
   border-radius: 20px;
   margin: 10px;
   cursor: pointer;
@@ -330,7 +338,6 @@ font-size: 32px;
   width: 300px;
   height: 200px;
   background-size: contain;
-  /* background-size: cover; */
   background-repeat: no-repeat;
 }
 .menu-img-meat{
@@ -390,3 +397,38 @@ font-size: 32px;
 }
 
 /* End page contact */
+#cookie_note{
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  left: 50%;
+  max-width: 90%;
+  transform: translateX(-50%);
+  padding: 20px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+#cookie_note p{
+  margin: 0;
+  font-size: 0.7rem;
+  text-align: left;
+  color: black;
+}
+
+.cookie_accept{
+  width:20%;
+}
+@media (min-width: 576px){
+  #cookie_note.show{
+      display: flex;
+  }
+}
+
+@media (max-width: 575px){
+  #cookie_note.show{
+      display: block;
+      text-align: left;
+  }
+}
