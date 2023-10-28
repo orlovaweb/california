@@ -2,7 +2,9 @@
 var textAnimation = document.querySelector('.banner__offer');
 
 function showText() {
-  textAnimation.classList.add('banner__offer--is-shown');
+  if (textAnimation) {
+    textAnimation.classList.add('banner__offer--is-shown');
+  }
 }
 
 window.addEventListener('load', showText);

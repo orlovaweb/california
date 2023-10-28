@@ -303,6 +303,9 @@
   .thanks h1{
     font-size: 16px;
   }
+  .thanks__wrapper{
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 375px){
   .cookie.cookie--is-active{
