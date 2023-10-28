@@ -34,6 +34,9 @@
    .title h2 {
     font-size: 28px;
   }
+  #cookie_note{
+    max-width: 90vw;
+  }
 }
 @media screen and (max-width:725px) {
   /* шрифты */
@@ -59,6 +62,24 @@
   }
   .about-us{
     margin: 70px 0px;
+  }
+  .policy{
+    margin: 100px 0 25px;
+  }
+  .policy h1{
+    font-size: 26px;
+  }
+  .policy h2{
+    font-size: 24px;
+  }
+  .policy h3{
+  font-size: 20px;
+  }
+  .thanks{
+    margin: 100px 0 25px;
+  }
+  .thanks h1{
+    font-size: 22px;
   }
 }
 @media screen and (max-width:680px) {
@@ -263,5 +284,31 @@
   }
   .menu__table-header h3{
     font-size:24px;
+  }
+  .policy{
+    margin: 90px 0 25px;
+  }
+  .policy h1{
+  font-size: 24px;
+  }
+  .policy h2{
+    font-size: 20px;
+  }
+  .policy h3{
+  font-size: 18px;
+  }
+  .thanks{
+    margin: 70px 0 25px;
+  }
+  .thanks h1{
+    font-size: 16px;
+  }
+}
+@media (max-width: 375px){
+  .cookie.cookie--is-active{
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
   }
 }
