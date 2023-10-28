@@ -297,12 +297,9 @@
   .policy h3{
   font-size: 18px;
   }
-  .thanks{
+  /* .thanks{
     margin: 70px 0 25px;
-  }
-  .thanks h1{
-    font-size: 16px;
-  }
+  } */
   .thanks__wrapper{
     flex-wrap: wrap;
   }
