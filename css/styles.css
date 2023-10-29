@@ -122,7 +122,6 @@ margin-bottom: 30px;
   color: var(--light-grey);
   border: none;
   cursor: pointer;
-  width: 300px;
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 .banner__btn:hover{
@@ -210,7 +209,6 @@ z-index: 2;
   display: none;
 }
 .description p{ 
-  /* margin-bottom: 30px; */
   color: var(--basic-first);
   line-height: 25px;
 }

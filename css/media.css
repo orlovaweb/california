@@ -53,9 +53,6 @@
   .banner__offer p{
    font-size: 18px;
    }
-   .banner__btn{
-    width: 215px;
-  }
   .banner__btn a{
     font-size: 14px;
     padding: 10px 30px;
@@ -89,6 +86,9 @@
   }
   .banner__offer{
     order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .banner__images-main{
     display: block;
@@ -106,9 +106,6 @@
    .banner__offer p{
     text-align: center;
    }
-   .banner__btn{
-    margin: 0 auto;
-  }
   .slider{
     height: 300px;
   }
@@ -234,9 +231,6 @@
    font-size: 16px;
    margin-bottom: 15px;
    }
-   .banner__btn{
-    width: 193px;
-  }
   .banner__btn a{
     font-size: 12px;
     padding: 10px 30px;
@@ -297,9 +291,6 @@
   .policy h3{
   font-size: 18px;
   }
-  /* .thanks{
-    margin: 70px 0 25px;
-  } */
   .thanks__wrapper{
     flex-wrap: wrap;
   }
